@@ -118,7 +118,7 @@ img {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(/images/Bgimages/herobg.png);
+    url(../image/hero-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -263,7 +263,89 @@ img {
   font-size: 16px;
   line-height: 1.18;
   margin-top: 10px;
+  margin-bottom: 16px;
 }
+
+.team-socials {
+  justify-content: center;
+}
+
+.team-icon {
+  color: #afb1b8;
+}
+
+.team-icon:hover,
+.team-icon:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.socials-list {
+  display: flex;
+}
+
+.socials-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 50%;
+}
+
+.socials-icon {
+  fill: currentColor;
+}
+
+/* Clients */
+
+.subtitle {
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.clients {
+  margin-bottom: 94px;
+  margin-top: 94px;
+}
+.clients-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc(-1 * var(--features-item-gap));
+  margin-top: calc(-1 * var(--features-item-gap));
+}
+
+.clients-item {
+  flex-basis: calc(100% / 6 - var(--features-item-gap));
+  margin-left: var(--features-item-gap);
+  margin-top: var(--features-item-gap);
+}
+
+.clients-thumb {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  color: #afb1b8;
+}
+
+.clients-icon {
+  fill: currentColor;
+}
+
+.clients-thumb:hover,
+.clients-thumb:focus {
+  border: 1px solid #2196f3;
+  color: #2196f3;
+}
+
 /* Футер */
 .footer {
   background-color: #2f303a;
@@ -271,6 +353,10 @@ img {
   padding-bottom: 60px;
 }
 
+.footer-thumbs {
+  display: flex;
+  align-items: baseline;
+}
 .logo-footer {
   display: inline-block;
   margin-bottom: 20px;
@@ -298,6 +384,35 @@ img {
   color: #2196f3;
 }
 
+.socials-invite {
+  margin-bottom: 20px;
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.socials-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.foot-icon {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.socials-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 50%;
+}
 /* Портфолио */
 .button-one {
   color: #ffffff;
